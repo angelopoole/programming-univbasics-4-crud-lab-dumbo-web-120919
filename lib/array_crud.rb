@@ -3,8 +3,10 @@ def create_an_empty_array
 end
 
 def create_an_array
-  count = 0
-  my_array = Array.new(4, "box#{count += 1}")
+  i = 0
+  my_array = Array.new(4, "box#{i += 1}")
+  my_array.each do |counter|
+    
 end
 
 def add_element_to_end_of_array(array, element)
