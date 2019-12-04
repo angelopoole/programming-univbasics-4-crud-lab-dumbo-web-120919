@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  # i = 0
+  i = 0
   my_array = Array.new(4, "box#{i += 1}")
 end
 
