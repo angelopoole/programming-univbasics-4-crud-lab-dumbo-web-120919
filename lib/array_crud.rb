@@ -5,7 +5,9 @@ end
 def create_an_array
   i = 0
   my_array = Array.new(4, "box#{i += 1}")
-  my_array.each do |counter|
+  my_array.each do |i|
+    i += 1
+  end
 
 end
 
