@@ -39,4 +39,4 @@ end
 def update_element_from_index(array, index_number, element)
 
 end
-# p create_an_array
+p create_an_array
