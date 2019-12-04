@@ -6,7 +6,7 @@ def create_an_array
   i = 0
   my_array = Array.new(4, "box#{i += 1}")
   my_array.each do |counter|
-    
+
 end
 
 def add_element_to_end_of_array(array, element)
