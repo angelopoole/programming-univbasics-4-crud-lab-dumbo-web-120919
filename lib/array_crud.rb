@@ -3,7 +3,8 @@ def create_an_empty_array
 end
 
 def create_an_array
-  my_array = Array.new(4,"Bark", "Ai", "nevermore", "Cinderwill")
+  count = 1
+  my_array = Array.new(4, "box#{count += 1}")
 end
 
 def add_element_to_end_of_array(array, element)
