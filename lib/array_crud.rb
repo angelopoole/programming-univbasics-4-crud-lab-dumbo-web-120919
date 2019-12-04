@@ -4,9 +4,7 @@ end
 
 def create_an_array
   # i = 0
-  # my_array = Array.new(4, "box#{i += 1}")
-  end
-
+  my_array = Array.new(4, "box#{i += 1}")
 end
 
 def add_element_to_end_of_array(array, element)
@@ -40,4 +38,4 @@ end
 def update_element_from_index(array, index_number, element)
 
 end
-p create_an_array
+# p create_an_array
